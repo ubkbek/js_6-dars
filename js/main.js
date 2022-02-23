@@ -1,12 +1,12 @@
-var costBilet = 500 * 9433.34;
-var costLivingRoom = 250 * 9433.34;
-costMuseum = 120 * 10354.03;
+const COST_BILET = 500 * 9433.34;
+const COST_LIVING_ROOM = 250 * 9433.34;
+const COST_MUSEUM = 120 * 10354.03;
 
-total = costBilet + costLivingRoom + costMuseum;
+const TOTAL = COST_BILET + COST_LIVING_ROOM + COST_MUSEUM;
 
 var moneyYes = prompt("Alisher qancha puling bor?");
 
-if (total <= moneyYes) {
+if (TOTAL <= moneyYes) {
     console.log("Oq yo'l");
     alert("Oq yo'l");
 }
