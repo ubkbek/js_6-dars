@@ -8,7 +8,9 @@ var moneyYes = prompt("Alisher qancha puling bor?");
 
 if (total <= moneyYes) {
     console.log("Oq yo'l");
+    alert("Oq yo'l");
 }
 else{
     console.log("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
+    alert("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
 }
